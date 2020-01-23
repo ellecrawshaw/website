@@ -1,45 +1,40 @@
 body {
-    background-image: url('https://pe-images.s3.amazonaws.com/type/effects/cc/transparent-background/new-background.jpg');
+    background-image: url('https://media.istockphoto.com/vectors/diving-hand-draw-cartoon-seamless-pattern-diving-and-water-sport-and-vector-id937516094');
     background-size: cover;
+}
+
+.vertical-menu {
+    width: 200px;
+    text-align: center;
+}
+
+.vertical-menu a {
+    background-color: #eeeeee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc;
+}
+
+.vertical-menu a.active {
+    background-color: midnightblue;
+    color: white;
 }
 
 header {
     text-align: center;
     font-size: 50px;
-    color: white;
+    color: black;
     font-family: 'Indie Flower', cursive;
     font-weight: bold;
     padding: 20px; 
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    position: fixed;
-    top: 130px;
-    width: 100%;
-}
 
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    padding: 14px 16px;
-    text-decoration: none;
-    text-align: center;
-    color: #bbbbbb;
-    font-family: Helvetica;
-    font-size: 25px;
-    
-}
-
- li:last-child {
-     border-right: none;
- }
 
 .review1 {
     font-family: Helvetica;
