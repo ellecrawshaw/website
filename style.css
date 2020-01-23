@@ -50,13 +50,13 @@ h1 {
     border-right: 2px solid #ccc; 
     
 }
+.nav li a:hover {
+    color: rgb(185, 88, 128);
+    background-color: white;
+}
 .nav li:last-child a {
     border-left: 2px solid #ccc;
     border-right: 0px;
-}
-.nav li a:hover {
-	color: maroon;
-    background-color: #fff; 
 }
 
 .blog {
@@ -78,7 +78,11 @@ h1 {
 button {
     background-color: maroon;
 }
+button:hover {
+    color: maroon;
+    background-color: white;
 
+}
 button a {
     color: white;
     font-size: 20px;
