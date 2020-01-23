@@ -14,7 +14,7 @@ body {
 
 h1 {
     font-size: 50px;
-    color: rgb(32, 144, 196);
+    color: rgb(185, 88, 128);
 }
 
 .header p {
@@ -36,21 +36,41 @@ h1 {
     padding: 0; 
 }
 .nav li {
-    float: left; 
+    float: left;
+    margin: 0 auto; 
 }
 .nav li a {
 	display: block;
 	padding: 8px 15px;
 	text-decoration: none;
-	font-weight: bold;
-	color: rgb(32, 144, 196);
-    border-right: 1px solid #ccc; 
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Helvetica;
+	color: rgb(185, 88, 128);
+    border-right: 2px solid #ccc; 
+    
 }
 .nav li:last-child a {
-    border-left: 1px solid #ccc;
+    border-left: 2px solid #ccc;
     border-right: 0px;
 }
 .nav li a:hover {
 	color: maroon;
     background-color: #fff; 
+}
+
+.blog {
+    position: relative;
+}
+.text-block {
+    position: absolute;
+    top: 120px;
+    left: 20px;
+    padding-left: 20px;
+    text-align: center;
+    font-family: Helvetica;
+}
+
+.text-block h2 {
+    font-size: 60px;
 }
