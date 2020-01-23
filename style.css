@@ -74,3 +74,12 @@ h1 {
 .text-block h2 {
     font-size: 60px;
 }
+
+button {
+    background-color: maroon;
+}
+
+button a {
+    color: white;
+    font-size: 20px;
+}
