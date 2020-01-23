@@ -13,12 +13,13 @@ body {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 3.5em;
     color: rgb(185, 88, 128);
 }
 
 .header p {
     font-weight: bold;
+    font-size: 1.25em;
 }
 
 .nav {
@@ -44,11 +45,10 @@ h1 {
 	padding: 8px 15px;
 	text-decoration: none;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.5em;
     font-family: Helvetica;
 	color: rgb(185, 88, 128);
-    border-right: 2px solid #ccc; 
-    
+    border-right: 2px solid #ccc;   
 }
 .nav li a:hover {
     color: rgb(185, 88, 128);
@@ -64,15 +64,17 @@ h1 {
 }
 .text-block {
     position: absolute;
-    top: 120px;
+    top: 80px;
     left: 20px;
     padding-left: 20px;
     text-align: center;
     font-family: Helvetica;
+    line-height: 1em;
+    font-weight: bold;
 }
 
 .text-block h2 {
-    font-size: 60px;
+    font-size: 2.5em;
 }
 
 button {
@@ -85,5 +87,6 @@ button:hover {
 }
 button a {
     color: white;
-    font-size: 20px;
+    font-size: 1.25em;
+    width: 10%;
 }
