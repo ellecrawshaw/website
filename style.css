@@ -3,58 +3,18 @@ body {
     background-size: cover;
 }
 
-.vertical-menu {
-    width: 200px;
+.header {
     text-align: center;
-}
-
-.vertical-menu a {
-    background-color: #eeeeee;
-    color: black;
-    display: block;
-    padding: 12px;
-    text-decoration: none;
-}
-
-.vertical-menu a:hover {
-    background-color: #ccc;
-}
-
-.vertical-menu a.active {
-    background-color: midnightblue;
-    color: white;
-}
-
-header {
-    text-align: center;
-    font-size: 50px;
-    color: black;
-    font-family: 'Indie Flower', cursive;
-    font-weight: bold;
-    padding: 20px; 
-}
-
-
-
-.review1 {
+    background-color: white;
     font-family: Helvetica;
-    text-align: center;
-    color: #bbbbbb;
-    padding: 30px;
-    margin: 5px 0px;
-    
+    padding: 5px;
+    line-height: 5px;
 }
 
-h2 {
+h1 {
+    font-size: 50px;
+}
+
+.header p {
     font-weight: bold;
-}
-
-p {
-    font-size: 15px;
-    overflow: scroll;
-    background-color: black;
-    opacity: 0.9;
-    padding: 15px;
-    line-height: 1.5;
-    display: inline-block;
 }
